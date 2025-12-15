@@ -17,11 +17,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let offsetTime = getCookie("offsetTime") || 0;
     let room = getCookie("room") || "";
-    let zoomLevel = getCookie("zoomLevel") || 1;
-    let currentTheme = getCookie("currentTheme") || "ealg";
-    let theme = getCookie("theme") || "dark";
+    let zoomLevel = getCookie("zoomLevel") || 0.8;
+    let currentTheme = getCookie("currentTheme") || "md3";
+    let theme = getCookie("theme") || "light";
     let isAutoToggle = getCookie("autoToggle") || false;
-    let paperCountPosition = getCookie("paperCountPosition") || "right-bottom";
+    let paperCountPosition = getCookie("paperCountPosition") || "left-info";
     let themeConfig = [];
 
     // 新增：检测url参数
